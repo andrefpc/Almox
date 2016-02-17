@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.gov.rj.rio.comlurb.almox">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/comlurb"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".controler.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controler.ListaValidacaoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_lista_validacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controler.ListaMateriaisValidacaoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_lista_materiais_validacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controler.ListaRecebimentoActivity"
+            android:label="@string/title_activity_lista_recebimento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controler.ListaMateriaisRecebimentoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_lista_materiais_validacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controler.SignatureActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_signature"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controler.SignatureConfirmationActivity"
+            android:label="@string/title_activity_signature_confirmation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

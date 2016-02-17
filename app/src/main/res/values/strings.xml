@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Almox</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">Sistema de Almoxarifado</string>
+
+    <string name="title_activity_lista_validacao">Requisições à Validar</string>
+    <string name="title_activity_lista_materiais_validacao">Materiais da Requisição</string>
+    <string name="title_activity_lista_recebimento">Requisições à Receber</string>
+    <string name="title_activity_signature">Assinatura do Recebimento</string>
+    <string name="title_activity_signature_confirmation">Confirmação da Assinatura</string>
+
+    <string name="validar_requisicoes">Validar Requisições</string>
+    <string name="validar_requisicao">Validar Requisição</string>
+    <string name="carregar_mais">Carregar Mais</string>
+
+    <string name="receber_requisicoes">Indicar Recebimento da Requisição</string>
+
+    <string name="codigo">Código</string>
+    <string name="ur">Unidade Requisitante</string>
+    <string name="almoxarifado">Almoxarifado</string>
+    <string name="dtReq">Data Requisição</string>
+
+
+    <string name="material">Material</string>
+    <string name="qtd">Quantidade</string>
+    <string name="qtdAtendida">Quantidade Atendida</string>
+
+
+    <string name="dialogQtdTitle">Entre com a nova quantidade:</string>
+    <string name="dialogQtdHint">Entre com o valor aqui...</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="estaNaTela">Você já está nesta tela!</string>
+
+
+    <string name="textSignature">Digite sua assinatura</string>
+
+</resources>
